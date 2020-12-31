@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import beerbottle from './../icons/Liquor/beer-bottle.svg'
 import beercan from './../icons/Liquor/beer-can.svg'
 import liquor from './../icons/Liquor/liquor.svg'

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import blackforest from './../icons/Dairy/black-forest.svg'
 import butter from './../icons/Dairy/butter.svg'
 import cheese from './../icons/Dairy/cheese.svg'

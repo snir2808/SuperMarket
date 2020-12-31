@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import caviar from './../icons/Fish/caviar.svg'
 import fishegg from './../icons/Fish/fish egg.svg'
 import fish from './../icons/Fish/fish.svg'
