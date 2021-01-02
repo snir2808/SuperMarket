@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SuperMarket/static/css/main.528d86f6.chunk.css",
-    "main.js": "/SuperMarket/static/js/main.df645b4b.chunk.js",
-    "main.js.map": "/SuperMarket/static/js/main.df645b4b.chunk.js.map",
+    "main.js": "/SuperMarket/static/js/main.eb930b58.chunk.js",
+    "main.js.map": "/SuperMarket/static/js/main.eb930b58.chunk.js.map",
     "runtime-main.js": "/SuperMarket/static/js/runtime-main.0b10c865.js",
     "runtime-main.js.map": "/SuperMarket/static/js/runtime-main.0b10c865.js.map",
     "static/js/2.68fdddc8.chunk.js": "/SuperMarket/static/js/2.68fdddc8.chunk.js",
@@ -63,6 +63,6 @@
     "static/js/runtime-main.0b10c865.js",
     "static/js/2.68fdddc8.chunk.js",
     "static/css/main.528d86f6.chunk.css",
-    "static/js/main.df645b4b.chunk.js"
+    "static/js/main.eb930b58.chunk.js"
   ]
 }
