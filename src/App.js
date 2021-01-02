@@ -106,6 +106,7 @@ function App() {
         />)}}></Route>
       </Switch>
     </Router>
+    <h3>All rights reserved 2021. SnirFrontEndDev</h3>
     </div>
   );
 }
