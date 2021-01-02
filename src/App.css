@@ -26,7 +26,6 @@ h2{
   width: 512px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .dairy1{
@@ -290,9 +289,217 @@ li,ul{
 .Bdelete:focus { 
   outline:none; 
 } 
+#cash_b{
+  position: relative;
+  top: 357px;
+  margin-top: 0px;
+}
 
 
+@media only screen and (max-width: 600px){
 
+  .meet_bg{
+    background-image: url('./icons/other/counter-display.png');
+    height: 390px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .meet1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100px;
+    padding-top: 00px;
+    padding-left: 71px;
+    margin-bottom: -11px;
+  }
+  .meet2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100px;
+    padding-top: 0px;
+    padding-left: 32px;
+    margin-bottom: -7px;
+  }
+  
+  .meet2_2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100px;
+    padding-top: 2px;
+    padding-left: 49px;
+    margin-bottom: -6px;
+  }
+  .meet3{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100px;
+    padding-top: 0px;
+    padding-left: 56px;
+  }
+
+  .dairy_bg{
+    background-image: url('./icons/other/counter-display.png');
+    height: 390px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .dairy1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100px;
+    padding-top: 00px;
+    padding-left: 15px;
+    margin-bottom: -11px;
+  }
+  .dairy2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100px;
+    padding-top: 3px;
+    padding-left: 23px;
+    margin-bottom: -11px;
+  }
+  .dairy3{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100px;
+    padding-top: 0px;
+    padding-left: 113px;
+  }
+
+  .liquors_bg{
+    background-image: url('./icons/other/shelves.png');
+    height: 390px;
+    width: 391px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+.liquors1{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 391px;
+  height: 100px;
+  padding-top: 85px;
+  padding-left: 45px;
+}
+.liquors2{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 43px;
+}
+
+.span_liq{
+  margin-left: 10px;
+}
+
+.img_liq{
+  margin-bottom: -2px;
+}
+
+
+.vegetables_bg{
+  background-image: url('./icons/other/shelves Vegetables.png');
+  height: 390px;
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vegetables1{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 367px;
+  height: 100px;
+  padding-top: 62px;
+  padding-left: 20px;
+}
+.vegetables2{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+  padding-top: 32px;
+  padding-left: 24px;
+}
+.p_veg{
+  width: 75px;
+}
+
+.span_veg{
+  margin-left: 18px;
+  margin-top: 1px;
+}
+.p_shop{
+  top:0%;
+  left: 5%;
+}
+.money{
+  top:0%;
+
+}
+
+.cashier{
+  background-image: url('./icons/other/cashier.png');
+  height: 390px;
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#cash_b{
+  position: relative;
+  top: 272px;
+  margin-top: 0px;
+}
+.cas_h1{
+  padding-top: 56px;
+  margin-bottom: -2px;}
+
+  img{
+    width: 50px;
+    height: 50px;
+  }
+.app{
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+}
 
 
 

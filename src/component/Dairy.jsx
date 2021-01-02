@@ -57,7 +57,6 @@ export default function Dairy(props) {
                 <Link to='/Fish'><button style={{backgroundColor:'#01497C'}} className='myButton'>Fish</button></Link>
                 <Link to='/Liquor'><button style={{backgroundColor:'#2E294E'}} className='myButton'>Liquor</button></Link>
                 <Link to='/Tobacco'><button style={{backgroundColor:'#585123'}} className='myButton'>Tobacco</button></Link>
-                <Link to='/cart'><button style={{backgroundColor:'#585123'}} className='myButton'>Cart</button></Link>
                 <br/><Link to='/cashier'><button style={{backgroundColor:'#4A5058'}} className='myButton'>payment</button></Link>
             </div>
         </div>

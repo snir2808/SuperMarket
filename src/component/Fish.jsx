@@ -12,7 +12,7 @@ import moneybag from './../icons/other/money-bag.svg'
 
 export default function Fish(props) {
 
-    var Icaviar = [12,'caviar'];
+    var Icaviar = [120,'caviar'];
     var Ifishegg = [15,'fishegg']
     var Ifish = [7,'fish']
     var Isalmon = [5,'salmon']
@@ -38,7 +38,7 @@ export default function Fish(props) {
         <div className='meet_bg'>
             <div className='meet1'>
 
-            <p><img onClick={() => imageClick(Icaviar)} src={caviar}/><br/><span>caviar 12$</span></p>
+            <p><img onClick={() => imageClick(Icaviar)} src={caviar}/><br/><span>caviar 120$</span></p>
             <p><img onClick={() => imageClick(Ifishegg)} src={fishegg}/><br/><span>fish egg 15$</span></p>
 
             </div>

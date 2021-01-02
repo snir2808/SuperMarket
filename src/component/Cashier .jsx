@@ -25,10 +25,10 @@ export default function Cashier (props) {
 
     return (
         <div>
-            <h1>Thank you so much<br/> for coming to visit</h1>
+            <h1 className='cas_h1'>Thank you so much<br/> for coming to visit</h1>
 
             <div className='cashier'>
-        <button onClick={()=>{click()}} style={{position: 'relative',top:'357px'}} className='myButton' >PAY</button>
+        <button onClick={()=>{click()}}id ='cash_b' className='myButton' >PAY</button>
         <Modal open={isOpen} onClose={()=>{setIsOpen(false)}}><h1>Thank you so much for coming again</h1><h2>Your change is {props.money}</h2></Modal>
             </div>
             <div>

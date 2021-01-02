@@ -42,19 +42,19 @@ export default function Vegetables(props) {
         <div className='vegetables_bg'>
             <div className='vegetables1'>
 
-            <p><img onClick={() => imageClick(Iavocado)} className='img_veg' src={avocado}/><br/><span className='span_veg'>avocado 6$</span></p>
-            <p><img onClick={() => imageClick(Ibeet)} className='img_veg' src={beet}/><br/><span className='span_veg'>beet 2$</span></p>
-            <p><img onClick={() => imageClick(Icarrot)} className='img_veg' src={carrot}/><br/><span className='span_veg'>carrot 3$</span></p>
-            <p><img onClick={() => imageClick(Icucumber)} className='img_veg' src={cucumber}/><br/><span className='span_veg'>cucumber 2$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Iavocado)} className='img_veg' src={avocado}/><br/><span className='span_veg'>avocado 6$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Ibeet)} className='img_veg' src={beet}/><br/><span className='span_veg'>beet 2$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Icarrot)} className='img_veg' src={carrot}/><br/><span className='span_veg'>carrot 3$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Icucumber)} className='img_veg' src={cucumber}/><br/><span className='span_veg'>cucumber 2$</span></p>
 
             </div>
 
             <div  className='vegetables2'>
 
-            <p><img onClick={() => imageClick(Ieggplant)} className='img_veg' src={eggplant}/><br/><span className='span_veg'>eggplant 4$</span></p>
-            <p><img onClick={() => imageClick(Ionion)} className='img_veg' src={onion}/><br/><span className='span_veg'>onion 2$</span></p>
-            <p><img onClick={() => imageClick(Ipepper)} className='img_veg' src={pepper}/><br/><span className='span_veg'>pepper 6$</span></p>
-            <p><img onClick={() => imageClick(Itomato)} className='img_veg' src={tomato}/><br/><span className='span_veg'>tomato 2.5$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Ieggplant)} className='img_veg' src={eggplant}/><br/><span className='span_veg'>eggplant 4$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Ionion)} className='img_veg' src={onion}/><br/><span className='span_veg'>onion 2$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Ipepper)} className='img_veg' src={pepper}/><br/><span className='span_veg'>pepper 6$</span></p>
+            <p className='p_veg'><img onClick={() => imageClick(Itomato)} className='img_veg' src={tomato}/><br/><span className='span_veg'>tomato 2.5$</span></p>
 
             </div>
 
