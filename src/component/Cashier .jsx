@@ -19,7 +19,7 @@ export default function Cashier (props) {
         setTimeout(()=>{
             history.push('/')
             setIsOpen(false)
-        },3000)
+        },3500)
     }
 
 
@@ -29,7 +29,7 @@ export default function Cashier (props) {
 
             <div className='cashier'>
         <button onClick={()=>{click()}}id ='cash_b' className='myButton' >PAY</button>
-        <Modal open={isOpen} onClose={()=>{setIsOpen(false)}}><h1>Thank you so much for coming again</h1><h2>Your change is {props.money}</h2></Modal>
+        <Modal open={isOpen} onClose={()=>{setIsOpen(false)}}><h1>{props.customer.customerGender} {props.customer.customerName} Thank you so much for coming again</h1><h2>Your change is {props.money}</h2></Modal>
             </div>
             <div>
                 <button  style={{backgroundColor:'#4A5058'}} className='myButton' onClick={()=>{history.goBack()}}>forget something?</button><br/>

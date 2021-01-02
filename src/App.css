@@ -294,6 +294,19 @@ li,ul{
   top: 357px;
   margin-top: 0px;
 }
+#help_b{
+  border-radius: 25px;
+  font-size: 28px;
+  background-color:#B4BF5E;
+}
+.help_div{
+  background-color: rgba(42,42,42,.3);
+  border-radius: 15px;
+  font-size: 23px;
+  -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+}
 
 
 @media only screen and (max-width: 600px){

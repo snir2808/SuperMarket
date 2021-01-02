@@ -20,6 +20,12 @@ function App() {
   const [cart, setCart] =useState([])
 
   let newCustomer = (name,gender,money) =>{
+    if(gender == 'male'){
+      gender = 'Mr.'
+    }
+    else{
+      gender = 'Mrs.'
+    }
     setCustomer({customerName: name, customerGender: gender})
     setMoney( Number(money))
     setCart([])
@@ -52,7 +58,9 @@ function App() {
         <Home newCust = {newCustomer}
         />)}}></Route>
 
-        <Route path ='/departments' component={()=>{return(<Departments/>)}}></Route>
+        <Route path ='/departments' component={()=>{return(<Departments 
+        customer= {customer}
+        />)}}></Route>
         <Route path ='/dairy' component={()=>{return(<Dairy
         money = {money}
         cart = {cart}
@@ -86,6 +94,7 @@ function App() {
         <Route path ='/cashier' component={()=>{return(<Cashier
         money = {money}
         cart = {cart}
+        customer= {customer}
         funcAdd = {addToCart}
         />)}}></Route>
         <Route path ='/cart' component={()=>{return(<Cart

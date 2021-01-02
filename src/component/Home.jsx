@@ -29,7 +29,7 @@ export default function Home(props) {
     }
 
     let newCustomer = () =>{
-        if(name.length > 1 && gender != undefined && money > 0){
+        if(name !== undefined && gender != undefined && money > 0){
             props.newCust(name, gender, money)
             history.push('/departments')
         }else{
